@@ -7,21 +7,12 @@ import {
   Stack,
   Heading,
   Flex,
-  Menu,
-  MenuItem,
-  MenuList,
-  MenuButton,
-  IconButton
 } from '@chakra-ui/react';
 
-const LinkItem = ({ href, path, children }) => {
+const LinkItem = ({ href, children }) => {
   return (
     <NextLink href={href} legacyBehavior passHref>
-      <Link
-        p={2}
-        bg={'#FAF8F1'}
-        color={'#FAF8F1'}
-      >
+      <Link p={2} bg={'#FAF8F1'} color={'#FAF8F1'}>
         {children}
       </Link>
     </NextLink>
@@ -29,9 +20,9 @@ const LinkItem = ({ href, path, children }) => {
 };
 
 const Navbar = props => {
-	const { path } = props;
+  const { path } = props;
 
-	return (
+  return (
     <Box
       position="fixed"
       as="nav"
@@ -54,7 +45,7 @@ const Navbar = props => {
           </Heading>
         </Flex>
 
-			<Stack
+        <Stack
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
@@ -63,7 +54,7 @@ const Navbar = props => {
           mt={{ base: 4, nmd: 0 }}
         >
           <LinkItem href="/projets" path={path}>
-						Qui sommes nous ?
+            Qui sommes nous ?
           </LinkItem>
 
           <LinkItem href="/publications" path={path}>
@@ -74,13 +65,13 @@ const Navbar = props => {
             Nos clients
           </LinkItem>
 
-					<LinkItem href="/tech" path={path}>
+          <LinkItem href="/tech" path={path}>
             Nos partenaires
           </LinkItem>
-			</Stack>
-		</Container>
-		</Box>
-	)
-}
+        </Stack>
+      </Container>
+    </Box>
+  );
+};
 
 export default Navbar;
