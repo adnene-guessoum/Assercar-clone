@@ -33,7 +33,7 @@ const Header = props => {
 			h="150px"
 			p={2}
       bg={'#20202380'}
-      style={{ backdropFilter: 'blur(10px)' }}
+      style={{ backdropFilter: 'blur(50px)' }}
       zIndex={1}
       {...props}
     >

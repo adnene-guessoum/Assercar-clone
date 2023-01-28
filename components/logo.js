@@ -6,8 +6,10 @@ import { Box, Container } from '@chakra-ui/react';
 const LogoContainer = styled.div`
   height: 100px;
 	display: flex;
-	gap: 60px;
-	margin-left: 25px;
+	justify-content: center;
+	align-items: center;
+  margin-top: 44px;
+	margin-bottom: 44px;
 
   &:hover img {
     transform: scale(1.2);
@@ -21,11 +23,9 @@ const Logo = () => {
   return (
      <LogoContainer>
     <Link legacyBehavior href="/">
-        <Image src={logoImg} width={100} height={100} alt="logo assercar" />
+        <Image src={logoImg} width={150} height={150} alt="logo assercar" />
     </Link>
-		
-				<Image src={motoImg} width={450} height={100} alt="slogan assercar" />
-      </LogoContainer>
+		</LogoContainer>
   );
 };
 

@@ -1,5 +1,5 @@
 const Page = () => {
-  return <div>Assercar</div>;
+  return <div></div>;
 };
 
 export default Page;
