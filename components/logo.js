@@ -8,8 +8,8 @@ const LogoContainer = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  margin-top: 44px;
-	margin-bottom: 44px;
+  margin: 44px;
+	margin-top:33px;
 
   &:hover img {
     transform: scale(1.2);
@@ -18,7 +18,6 @@ const LogoContainer = styled.div`
 
 const Logo = () => {
   const logoImg = '/images/logo.png';
-	const motoImg = '/images/moto.png';
 
   return (
      <LogoContainer>

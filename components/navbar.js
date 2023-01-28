@@ -38,13 +38,25 @@ const Navbar = props => {
 		h="100%"
 		bg='#20202380'
 		p="10px"
+		overflowY="auto"
+		css={{
+    '&::-webkit-scrollbar': {
+      width: '4px',
+    },
+    '&::-webkit-scrollbar-track': {
+      width: '6px',
+    },
+    '&::-webkit-scrollbar-thumb': {
+      background: 'red',
+      borderRadius: '24px',
+    },
+  }}
 		style={{ backdropFilter: 'blur(10px)' }}
 		zIndex={1}
 		{...props}
 		>
 
 		<Logo />
-
 
 		<List fontSize="0.8em">
 
@@ -229,7 +241,7 @@ const Navbar = props => {
 		Espace réservé
 		</ListItem>
 
-		<List mb={2} pl={3}>
+		<List pl={3}>
 
 			<ListItem>
 				<ListIcon as={ChevronRightIcon} />
