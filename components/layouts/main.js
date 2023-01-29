@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Header from '../header.js';
 import Navbar from '../navbar.js';
 import { Box, Container } from '@chakra-ui/react';
 
@@ -11,9 +10,11 @@ const Main = ({ children, router }) => {
         <title>assercar-clone</title>
       </Head>
 
-			<Navbar path={router.asPath} />
+      <Navbar path={router.asPath} />
 
-      <Container pt={14}>{children}</Container>
+      <Container w="100%" maxW="100vw" pt={4}>
+        {children}
+      </Container>
     </Box>
   );
 };
