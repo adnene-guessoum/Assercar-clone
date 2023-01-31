@@ -1,0 +1,56 @@
+.form_saisie {
+  border: 1px solid #808080;
+  text-align: left;
+  background-color: #e0e0e0;
+  color: black;
+  margin-top: 0;
+  font-family: Verdana, DejaVu Sans, Arial, sans-serif;
+  font-size: 12px;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+.formulaire_saisie {
+  background-color: red;
+  height: 15px;
+}
+
+.titre_form_centre {
+  width: 96%;
+}
+
+.align_center_14_white {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 5px;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+.form_petit_centre {
+  font-size: 8pt;
+  color: #333333;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.list_style {
+  margin: 20px;
+}
+
+.align_center {
+  text-align: center;
+  color: #282828;
+  margin: 5px;
+  vertical-align: top;
+}

@@ -1,6 +1,7 @@
 #environment
 .env
 .garbage
+garbage.html
 
 #temporary
 temp*.*
