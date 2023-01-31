@@ -145,7 +145,7 @@ const Page = () => {
             <TableCaption color="red">Mise à jour du 29-01-2023</TableCaption>
             <Thead>
               <Tr bg="grey">
-                <Th colspan="3" scope="colgroup" color="black">
+                <Th colSpan="3" scope="colgroup" color="black">
                   Situation du réseau Assercar
                 </Th>
               </Tr>
