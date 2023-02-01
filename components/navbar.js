@@ -96,10 +96,6 @@ const Navbar = props => {
           <LinkItem href="/reparateurs" path={path}>
             Les réparateurs
           </LinkItem>
-
-          <LinkItem href="/couverture_geographique" path={path}>
-            Couverture géographique
-          </LinkItem>
         </List>
 
         <ListItem bg="#ffffff40" color="#313639" fontWeight="bold">
