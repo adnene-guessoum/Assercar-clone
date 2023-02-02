@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../navbar.js';
+import Footer from '../footer';
 import { Box, Container } from '@chakra-ui/react';
 
 const Main = ({ children, router }) => {
@@ -12,9 +13,11 @@ const Main = ({ children, router }) => {
 
       <Navbar path={router.asPath} />
 
-      <Container w="100%" maxW="100vw" pt={4}>
+      <Container w="100%" maxW="100vw" pt={4} mb="50px">
         {children}
       </Container>
+
+      <Footer />
     </Box>
   );
 };

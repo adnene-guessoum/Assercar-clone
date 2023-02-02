@@ -27,6 +27,7 @@ const PageReparateurs = () => {
       </Section>
 
       <Flex direction="column">
+        <Divider bg="black" mt={18} mb={18} />
         <Section delay={0.2}>
           <Paragraph>
             Le réseau ASSERCAR s&apos;est développé rapidement depuis la
@@ -37,7 +38,6 @@ const PageReparateurs = () => {
             d&apos;un apport de clientèle. L&apos;arrivée de nouveaux clients
             nous amènera sans doute à augmenter encore le nombre de réparateurs.
           </Paragraph>
-          <Divider bg="black" mt={18} mb={18} />
         </Section>
 
         <Section delay={0.4}>
@@ -51,7 +51,6 @@ const PageReparateurs = () => {
             tarifs sont compétitifs. Bien sûr, la satisfaction de la clientèle
             est une de leurs préoccupations essentielles !
           </Paragraph>
-          <Divider bg="black" mt={18} mb={18} />
         </Section>
 
         <Section delay={0.4}>

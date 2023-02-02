@@ -70,10 +70,6 @@ const Navbar = props => {
             Nos atouts
           </LinkItem>
 
-          <LinkItem href="/revue_presse" path={path}>
-            Revue de presse
-          </LinkItem>
-
           <LinkItem href="/recrutement" path={path}>
             Recrutement
           </LinkItem>
