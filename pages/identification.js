@@ -2,6 +2,7 @@ import Section from '../components/section';
 import IdForm from '../components/identificationForm';
 import { Paragraph, Titre } from '../components/paragraph';
 import { Flex, Image, Text, Container, Divider } from '@chakra-ui/react';
+import NoSsr from '../components/disableSSR';
 
 const PageIdentification = () => {
   return (
@@ -38,7 +39,9 @@ const PageIdentification = () => {
         </Section>
 
         <Section delay={0.4}>
-          <IdForm />
+          <NoSsr>
+            <IdForm />
+          </NoSsr>
         </Section>
       </Flex>
     </Flex>

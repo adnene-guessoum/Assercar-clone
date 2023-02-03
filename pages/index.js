@@ -1,7 +1,7 @@
 import Section from '../components/section';
 import ImageSpinner from '../components/imageSpinner';
 import { Paragraph, Titre } from '../components/paragraph';
-import { Flex, Image, Container, Divider, Link } from '@chakra-ui/react';
+import { Flex, Image, Container, Divider, Text } from '@chakra-ui/react';
 import NextLink from 'next/link';
 
 import {
@@ -40,9 +40,9 @@ const Page = () => {
                 Ce site présente le réseau des réparateurs ASSERCAR, à
                 disposition de votre assureur ou de votre gestionnaire de
                 flottes de véhicules. Consultez la description des{' '}
-                <Link color="red" decoration="underline">
+                <Text as="span" color="red" decoration="underline">
                   <NextLink href="/services">services</NextLink>
-                </Link>{' '}
+                </Text>{' '}
                 qui vous sont proposés gratuitement en cas d&apos;accident.
               </Paragraph>
             </Flex>
@@ -65,9 +65,9 @@ const Page = () => {
               </Titre>
               <Paragraph>
                 Accédez directement à votre{' '}
-                <Link color="red" decoration="underline">
+                <Text as="span" color="red" decoration="underline">
                   <NextLink href="/identification">Espace réservé</NextLink>
-                </Link>{' '}
+                </Text>{' '}
                 et au site de géolocalisation des réparateurs. Vous pouvez aussi
                 suivre l&apos;avancement de vos dossiers.
               </Paragraph>
@@ -92,12 +92,12 @@ const Page = () => {
                 Ce site présente l&apos;offre ASSERCAR mais vous avez
                 certainement besoin d&apos;informations supplémentaires.
                 N&apos;hésitez pas à nous{' '}
-                <Link color="red" decoration="underline">
-                  <NextLink href="/contact">contacter </NextLink>
-                </Link>
-                nous répondrons à toutes vos questions et, si vous le souhaitez,
-                nous étudierons votre besoin afin de vous proposer une réponse
-                adaptée et personnalisée.
+                <Text as="span" color="red" decoration="underline">
+                  <NextLink href="/contact">contacter</NextLink>
+                </Text>
+                , nous répondrons à toutes vos questions et, si vous le
+                souhaitez, nous étudierons votre besoin afin de vous proposer
+                une réponse adaptée et personnalisée.
               </Paragraph>
             </Flex>
           </Flex>
@@ -116,9 +116,9 @@ const Page = () => {
               <Titre>Vous êtes déjà Réparateur ASSERCAR</Titre>
               <Paragraph>
                 Accédez directement à votre{' '}
-                <Link color="red" decoration="underline">
+                <Text as="span" color="red" decoration="underline">
                   <NextLink href="/identification">Espace réservé</NextLink>
-                </Link>
+                </Text>
                 , vous pouvez y obtenir des informations, consulter vos dossiers
                 carrosserie, gérer complètement vos dossiers vitrage et suivre
                 les règlements.
@@ -141,9 +141,9 @@ const Page = () => {
               <Paragraph>
                 Ce site présente le réseau ASSERCAR. Si vous souhaitez en
                 devenir membre, consultez la page{' '}
-                <Link color="red" decoration="underline">
+                <Text as="span" color="red" decoration="underline">
                   <NextLink href="/reparateurs">Les réparateurs</NextLink>
-                </Link>
+                </Text>
                 .
               </Paragraph>
             </Flex>

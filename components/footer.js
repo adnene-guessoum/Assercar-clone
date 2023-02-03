@@ -46,7 +46,7 @@ const Footer = () => {
         </Link>
         <Divider backgroundColor="black" orientation="vertical" />
 
-        <NextLink color="black" href="/contact">
+        <NextLink color="black" href={'/contact'} legacyBehavior passHref>
           <Link color="black">Nous contacter</Link>
         </NextLink>
 
