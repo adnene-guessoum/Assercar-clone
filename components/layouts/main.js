@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../navbar.js';
 import Footer from '../footer';
-import { Box, Container } from '@chakra-ui/react';
+import { Box, Flex } from '@chakra-ui/react';
 
 const Main = ({ children, router }) => {
   return (
@@ -11,13 +11,17 @@ const Main = ({ children, router }) => {
         <title>assercar-clone</title>
       </Head>
 
-      <Navbar path={router.asPath} />
+      <Flex>
+        <Navbar path={router.asPath} />
 
-      <Container w="100%" maxW="100vw" pt={4} mb="50px">
-        {children}
-      </Container>
+        <Flex direction="column">
+          <Box pt={4} mb="50px">
+            {children}
+          </Box>
 
-      <Footer />
+          <Footer />
+        </Flex>
+      </Flex>
     </Box>
   );
 };

@@ -22,7 +22,7 @@ const PageServices = () => {
       </Container>
 
       <Section delay={0.1}>
-        <Flex gap={3} justify="center" align="center">
+        <Flex gap={3} w="81vw" justify="center" align="center">
           <Image
             src="/images/services/service.gif"
             alt="illustration services"
