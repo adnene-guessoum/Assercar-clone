@@ -32,7 +32,7 @@ const components = {
 
   Divider: {
     baseStyle: {
-      backgroundColor: 'black'
+      borderColor: 'black'
     }
   }
 };
