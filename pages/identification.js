@@ -6,13 +6,13 @@ import NoSsr from '../components/disableSSR';
 
 const PageIdentification = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" w="83%" h="100vh" p={5} ml="280px">
       <Container>
         <Image
           src="/images/identification/banner_identification.png"
           alt="bannière identification"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.1}>
@@ -24,7 +24,7 @@ const PageIdentification = () => {
       </Section>
 
       <Flex direction="column">
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
         <Section delay={0.2}>
           <Paragraph>
             Vous êtes Client ASSERCAR (assureur, gestionnaire de flottes) ou

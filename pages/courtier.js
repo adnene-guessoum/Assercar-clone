@@ -13,16 +13,16 @@ import { thumbMarsh, thumbVerlingue, thumbBca } from '../components/images';
 
 const PageCourtier = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" w="83%" h="100vh" p={5} ml="280px">
       <Container>
         <Image
           src="/images/courtier/titre_courtier.png"
           alt="bannière courtier"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
       <Section delay={0.2}>
         <SimpleGrid columns={3} gap={6}>
           <InvestGridItem
@@ -95,7 +95,7 @@ const PageCourtier = () => {
         </SimpleGrid>
       </Section>
 
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
     </Flex>
   );
 };

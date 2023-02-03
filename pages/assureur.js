@@ -25,16 +25,16 @@ import {
 
 const PageAssureurs = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" p={5} w="83%" ml="280px">
       <Container>
         <Image
           src="/images/assureurs/titre_assureurs.png"
           alt="bannière assureurs"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
       <Section delay={0.2}>
         <SimpleGrid columns={3} gap={6}>
           <InvestGridItem
@@ -116,7 +116,7 @@ const PageAssureurs = () => {
           </InvestGridItem>
         </SimpleGrid>
       </Section>
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
       <Section delay={0.4}>
         <SimpleGrid columns={3} gap={6}>
           <InvestGridItem
@@ -195,7 +195,7 @@ const PageAssureurs = () => {
           </InvestGridItem>
         </SimpleGrid>
       </Section>
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
       <Section delay={0.6}>
         <SimpleGrid columns={3} gap={6}>
           <InvestGridItem
@@ -283,7 +283,7 @@ const PageAssureurs = () => {
           </InvestGridItem>
         </SimpleGrid>
       </Section>
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
       <Section delay={0.8}>
         <SimpleGrid columns={3} gap={6}>
           <InvestGridItem
@@ -316,7 +316,7 @@ const PageAssureurs = () => {
           </InvestGridItem>
         </SimpleGrid>
       </Section>
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
     </Flex>
   );
 };

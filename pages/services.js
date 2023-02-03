@@ -12,13 +12,13 @@ import {
 
 const PageServices = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" w="87%" ml="280px">
       <Container>
         <Image
           src="/images/services/titre_services.gif"
           alt="bannière services"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.1}>
@@ -154,7 +154,7 @@ const PageServices = () => {
           </List>
         </Container>
 
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Section>
     </Flex>
   );

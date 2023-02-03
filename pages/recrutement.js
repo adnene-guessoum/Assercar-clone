@@ -15,14 +15,14 @@ import {
 
 const PageRecrutement = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" p={5} w="85%" h="100vh" ml="280px">
       <Container>
         <Image
           src="/images/recrutement/logo_recrutement.png"
           alt="bannière recrutement"
         />
       </Container>
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
       <Titre as="h1">ASSERCAR recrute :</Titre>
       <Section delay={0.2}>
         <Text color="black" mt={2} style={{ textIndent: 20 }}>
@@ -53,7 +53,7 @@ const PageRecrutement = () => {
         </Text>
       </Section>
 
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
 
       <Section delay={0.4}>
         <TableContainer border=" solid 1px black">
@@ -80,7 +80,7 @@ const PageRecrutement = () => {
         </TableContainer>
       </Section>
 
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
     </Flex>
   );
 };

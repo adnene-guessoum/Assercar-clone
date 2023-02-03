@@ -17,11 +17,11 @@ import {
 
 const Page = () => {
   return (
-    <Container display="flex" flexWrap="wrap" ml="280px" maxW="90vw" w="100%">
-      <Flex direction="column" w="60%">
+    <Container display="flex" flexWrap="wrap" ml="280px" maxW="83vw" w="100%">
+      <Flex direction="column" w="73%">
         <Container>
           <Image src="/images/moto.png" alt="bannière accueil" />
-          <Divider bg="black" mt={18} mb={18} />
+          <Divider mt={18} mb={18} />
         </Container>
 
         <Section delay={0.1}>
@@ -47,7 +47,7 @@ const Page = () => {
               </Paragraph>
             </Flex>
           </Flex>
-          <Divider bg="black" />
+          <Divider />
         </Section>
 
         <Section delay={0.2}>
@@ -73,7 +73,7 @@ const Page = () => {
               </Paragraph>
             </Flex>
           </Flex>
-          <Divider bg="black" />
+          <Divider />
         </Section>
 
         <Section delay={0.3}>
@@ -101,7 +101,7 @@ const Page = () => {
               </Paragraph>
             </Flex>
           </Flex>
-          <Divider bg="black" />
+          <Divider />
         </Section>
 
         <Section delay={0.4}>
@@ -125,7 +125,7 @@ const Page = () => {
               </Paragraph>
             </Flex>
           </Flex>
-          <Divider bg="black" />
+          <Divider />
         </Section>
 
         <Section delay={0.5}>
@@ -148,11 +148,11 @@ const Page = () => {
               </Paragraph>
             </Flex>
           </Flex>
-          <Divider bg="black" />
+          <Divider />
         </Section>
       </Flex>
 
-      <Flex direction="column" align="right" gap={5} p={10}>
+      <Flex direction="column" justify="center" align="right" gap={5} p={10}>
         <Image
           src="/images/accueil/reseau.gif"
           alt="Situation réseau"

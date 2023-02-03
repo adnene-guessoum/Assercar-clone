@@ -5,10 +5,10 @@ import { Container, Flex, Divider, Image } from '@chakra-ui/react';
 
 const ContactPage = () => {
   return (
-    <Flex direction="column" w="80%" ml="280px">
+    <Flex direction="column" p={5} ml="280px" w="93%">
       <Container>
         <Image src="/images/moto.png" alt="bannière accueil" />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.2}>
@@ -23,7 +23,7 @@ const ContactPage = () => {
             <Paragraph>ASSERCAR, 150 rue Legendre, 75017 PARIS</Paragraph>
           </Flex>
         </Flex>
-        <Divider bg="black" mt={18} />
+        <Divider mt={18} />
       </Section>
 
       <Section delay={0.4}>

@@ -23,14 +23,14 @@ import {
 
 const PageSociete = () => {
   return (
-    <Flex direction="column" w="70%" ml="280px">
+    <Flex direction="column" p={5} ml="280px">
       <Container>
         <Image src="/images/societe/titre_societe.gif" alt="bannière société" />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.1}>
-        <Flex gap={3} align="start">
+        <Flex gap={3} justify="center" align="center">
           <Image
             src="/images/societe/societe_logo.gif"
             alt="illustration société"
@@ -46,43 +46,45 @@ const PageSociete = () => {
             </Paragraph>
           </Flex>
         </Flex>
-        <Divider bg="black" />
       </Section>
 
       <Section delay={0.3}>
-        <Flex direction="column">
+        <Flex direction="column" justify="center" align="center">
           <Titre>Les Missions d&apos;Assercar :</Titre>
 
-          <Paragraph>
-            La société Assercar a pour objet essentiel de créer, maintenir et
-            animer un réseau de réparateurs dans le domaine automobile. La liste
-            des réparateurs membres est mise à disposition des clients de la
-            société :{' '}
-            <NextLink href="/assureur">
-              <Text as="span" decoration="underline">
-                assureurs
-              </Text>
-            </NextLink>
-            ,{' '}
-            <NextLink href="/assureur">
-              <Text as="span" decoration="underline">
-                gestionnaires de flottes
-              </Text>
-            </NextLink>{' '}
-            et intermédiaires d&apos;assurances
-          </Paragraph>
+          <Container mt={5}>
+            <Paragraph>
+              La société Assercar a pour objet essentiel de créer, maintenir et
+              animer un réseau de réparateurs dans le domaine automobile. La
+              liste des réparateurs membres est mise à disposition des clients
+              de la société :{' '}
+              <NextLink href="/assureur">
+                <Text as="span" decoration="underline">
+                  assureurs
+                </Text>
+              </NextLink>
+              ,{' '}
+              <NextLink href="/assureur">
+                <Text as="span" decoration="underline">
+                  gestionnaires de flottes
+                </Text>
+              </NextLink>{' '}
+              et intermédiaires d&apos;assurances
+            </Paragraph>
 
-          <Paragraph>
-            Suite au conseil de leur assureur, les assurés peuvent choisir un
-            réparateur Assercar pour obtenir avec certitude qualité de travail
-            et services complémentaires à la réparation de leur véhicule. Ces
-            services sont gratuits pour l&apos;assuré. L&apos;assureur satisfait
-            ainsi le besoin de son assuré et les réparateurs bénéficient
-            d&apos;un apport de clientèle sans investissement commercial.
-          </Paragraph>
+            <Paragraph>
+              Suite au conseil de leur assureur, les assurés peuvent choisir un
+              réparateur Assercar pour obtenir avec certitude qualité de travail
+              et services complémentaires à la réparation de leur véhicule. Ces
+              services sont gratuits pour l&apos;assuré. L&apos;assureur
+              satisfait ainsi le besoin de son assuré et les réparateurs
+              bénéficient d&apos;un apport de clientèle sans investissement
+              commercial.
+            </Paragraph>
+          </Container>
         </Flex>
 
-        <Divider bg="black" />
+        <Divider />
       </Section>
 
       <Section delay={0.5}>
@@ -154,7 +156,7 @@ const PageSociete = () => {
           </InvestGridItem>
         </SimpleGrid>
 
-        <Divider bg="black" mt={4} />
+        <Divider mt={4} />
       </Section>
     </Flex>
   );

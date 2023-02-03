@@ -21,13 +21,13 @@ import {
 
 const PageExpertise = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" p={5} w="83%" ml="280px">
       <Container>
         <Image
           src="/images/expertise/banner_expertise.png"
           alt="bannière expertise"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Flex direction="column">
@@ -44,7 +44,7 @@ const PageExpertise = () => {
           d&apos;experts cités permettent de suivre précisément l&apos;activité
           des réparateurs.
         </Paragraph>
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Flex>
 
       <Section delay={0.2}>
@@ -142,7 +142,7 @@ const PageExpertise = () => {
         </SimpleGrid>
       </Section>
 
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
       <Section delay={0.4}>
         <Flex gap={4}>
           <Image
@@ -159,7 +159,7 @@ const PageExpertise = () => {
           </Paragraph>
         </Flex>
       </Section>
-      <Divider bg="black" mt={18} mb={18} />
+      <Divider mt={18} mb={18} />
     </Flex>
   );
 };

@@ -7,13 +7,13 @@ import { ChevronRightIcon, ArrowForwardIcon } from '@chakra-ui/icons';
 const LinkItem = ({ href, children }) => {
   return (
     <ListItem>
-      <ListIcon as={ChevronRightIcon} />
       <NextLink href={href} legacyBehavior passHref>
         <Link p={2} color="#FAF9F6">
+          <ListIcon as={ChevronRightIcon} />
           {children}
         </Link>
       </NextLink>
-      <Divider m={1} bg="black" />
+      <Divider m={1} w="90%" />
     </ListItem>
   );
 };
@@ -128,7 +128,7 @@ const Navbar = props => {
           </LinkItem>
         </List>
 
-        <ListItem bg="red" fontWeight="bold">
+        <ListItem bg="red" color="#ffffffeb" fontWeight="bold">
           <ListIcon as={ArrowForwardIcon} />
           Espace réservé
         </ListItem>

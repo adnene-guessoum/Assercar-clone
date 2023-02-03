@@ -4,13 +4,13 @@ import { Flex, Image, Text, Container, Divider, Link } from '@chakra-ui/react';
 
 const PageReparateurs = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" p={5} w="83%" h="100vh" ml="280px">
       <Container>
         <Image
           src="/images/reparateurs/titre_reparateurs.gif"
           alt="bannière reparateurs"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.1}>
@@ -27,7 +27,7 @@ const PageReparateurs = () => {
       </Section>
 
       <Flex direction="column">
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
         <Section delay={0.2}>
           <Paragraph>
             Le réseau ASSERCAR s&apos;est développé rapidement depuis la
@@ -64,7 +64,7 @@ const PageReparateurs = () => {
               dossier de candidature.
             </Link>
           </Paragraph>
-          <Divider bg="black" mt={18} mb={18} />
+          <Divider mt={18} mb={18} />
         </Section>
       </Flex>
     </Flex>

@@ -14,14 +14,14 @@ import NextLink from 'next/link';
 
 const PageAtouts = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" p={5} w="100%" ml="280px">
       <Container>
         <Image src="/images/atouts/Titre_atouts.gif" alt="bannière atouts" />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.1}>
-        <Flex gap={3} align="center">
+        <Flex gap={3} justify="center" align="center">
           <Image
             src="/images/atouts/atouts.gif"
             alt="illustration atouts"
@@ -33,7 +33,7 @@ const PageAtouts = () => {
             fonctionnement quotidien :
           </Titre>
         </Flex>
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Section>
 
       <Section delay={0.2}>

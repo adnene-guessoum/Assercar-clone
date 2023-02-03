@@ -25,8 +25,14 @@ const components = {
 
   Link: {
     baseStyle: {
-      color: '#ff63c3',
+      color: 'red',
       textUnderlineOffset: 3
+    }
+  },
+
+  Divider: {
+    baseStyle: {
+      backgroundColor: 'black'
     }
   }
 };

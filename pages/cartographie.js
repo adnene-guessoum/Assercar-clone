@@ -4,13 +4,13 @@ import { Flex, Image, Text, Container, Divider, Link } from '@chakra-ui/react';
 
 const PageCartographie = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" w="83%" h="100vh" p={5} ml="280px">
       <Container>
         <Image
           src="/images/cartographie/titre_cartographie.gif"
           alt="bannière cartographie"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.1}>
@@ -55,7 +55,7 @@ const PageCartographie = () => {
             Ainsi, un réparateur peut constater l&apos;arrivée de nouveaux
             clients peu de temps après la signature de la convention ASSERCAR.
           </Paragraph>
-          <Divider bg="black" mt={18} mb={18} />
+          <Divider mt={18} mb={18} />
         </Section>
 
         <Section delay={0.6}>

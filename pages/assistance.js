@@ -4,7 +4,7 @@ import { Flex, Image, Text, Container, Divider, Link } from '@chakra-ui/react';
 
 const PageAssistance = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" w="83%" h="100vh" p={5} ml="280px">
       <Container>
         <Image
           src="/images/assistance/titre_assistance.gif"

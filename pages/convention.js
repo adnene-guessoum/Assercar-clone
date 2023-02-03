@@ -11,13 +11,13 @@ import {
 
 const PageConvention = () => {
   return (
-    <Flex direction="column" w="75%" ml="280px">
+    <Flex direction="column" p={5} w="83%" h="100vh" ml="280px">
       <Container>
         <Image
           src="/images/convention/titre_convention.gif"
           alt="bannière convention"
         />
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Container>
 
       <Section delay={0.1}>
@@ -90,7 +90,7 @@ const PageConvention = () => {
           </List>
         </Container>
 
-        <Divider bg="black" mt={18} mb={18} />
+        <Divider mt={18} mb={18} />
       </Section>
 
       <Section delay={0.4}>
