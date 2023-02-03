@@ -33,7 +33,6 @@ const PageAtouts = () => {
             fonctionnement quotidien :
           </Titre>
         </Flex>
-        <Divider mt={18} mb={18} />
       </Section>
 
       <Section delay={0.2}>

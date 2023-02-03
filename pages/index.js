@@ -148,7 +148,7 @@ const Page = () => {
               </Paragraph>
             </Flex>
           </Flex>
-          <Divider />
+          <Divider mt={18} />
         </Section>
       </Flex>
 
